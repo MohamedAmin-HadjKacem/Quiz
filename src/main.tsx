@@ -7,6 +7,7 @@ import { QuizProvider } from './contexts/QuizContext.jsx';
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <QuizProvider>
+      <h1>Maynou</h1>
       <App />
     </QuizProvider>
   </React.StrictMode>
